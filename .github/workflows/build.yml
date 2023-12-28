@@ -21,6 +21,6 @@ jobs:
         uses: caprover/deploy-from-github@v1.1.2
         with:
           server: https://uulauu.de
-          app: 'svelte-template'
+          app: 'sveltekit'
           token: '${{ secrets.APP_TOKEN }}'
-          image: 'ghcr.io/MatissDK/svelte5-daisy-ui-template:latest'
+          image: 'ghcr.io/MatissDK/sveltekit:latest'
