@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  svelete-app:
+    image: svelte5-daisyui-template:latest
+    container_name: svelte5-daisyui-template
+    ports:
+      - "4000:3000"  # Adjust the port based on your Node.js app configuration
