@@ -4,7 +4,7 @@
 
     let {theme} = $props();
 
-    let isDark = $derived(theme ? theme === 'dark' : false);
+    let isDark = $derived(theme ? theme === 'dark' : true);
 
     function submitUpdateTheme({ action }) {
         theme = action.searchParams.get('theme');
