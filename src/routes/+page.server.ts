@@ -7,8 +7,6 @@ export const actions: Actions = {
 		const theme = url.searchParams.get("theme");
 		const redirectTo = url.searchParams.get("redirectTo");
 
-		console.log('Chnage thme to ', theme);
-
 		if (theme) {
 			cookies.set("colortheme", theme, {
 				path: "/",
